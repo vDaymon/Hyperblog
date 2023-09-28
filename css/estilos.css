@@ -9,11 +9,23 @@ body{
 }
 
 .rectangulo{
+    position: relative;
+    margin: 4vw auto; 
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    margin: 0 auto;
+    
     padding: 20px;
     width: 400px;
     
+}
+.barra{
+    position: relative;
+    margin: 4vw auto; 
+    background-color: #333;
+    border-radius: 5px;
+    color: #fff;
+    
+    padding: 20px;
+    width: 400px;
 }
